@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+
+  background-color: #f3f3f3;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  background-color: #f3f3f3;
+  overflow-x: hidden;
+}
+circle {
+  display: none;
+}
+p {
+  margin-bottom: 0rem;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  padding-left: 0rem;
+  margin-bottom: 0px;
+}
+.container_all {
+  margin: 0 auto;
+  position: relative;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* header */
+.header {
+  background-color: #2d2d2d;
+}
+.navbar {
+  width: 100%;
+  box-shadow: 0 4px 10px;
+  display: flex;
+  min-height: 60px;
+}
+.navbar .container {
+  display: flex;
+  height: inherit;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.navbar-menu li {
+  display: inline-block;
+  margin-left: 10px;
+}
+.navbar-brand {
+  font-weight: 700;
+  font-size: 26px;
+  color: white;
+}
+.navbar-brand:hover {
+  color: white;
+}
+.navbar li a {
+  display: inline-block;
+  color: white;
+  font-size: 18px;
+}
+.navbar li a:hover {
+  color: rgb(18, 207, 124);
+}
+.callback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 200px;
+  background-color: coral;
+  border-radius: 10px;
+  color: white;
+}
+.callback:hover {
+  background-color: white;
+  color: black;
+}
+.navbar-menu li ul {
+  z-index: 1;
+  position: absolute;
+  top: 62px;
+  left: 320px;
+  width: 150px;
+  background-color: #2d2d2d;
+  display: none;
+}
+.navbar-menu li ul li {
+  display: block;
+}
+.navbar-menu > li:hover > ul {
+  display: initial;
+}
+.phone {
+  display: flex;
+  gap: 20px;
+}
+.registration {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.registration img {
+  height: 40px;
+}
+.registration_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(18, 207, 124);
+  color: white;
+}
+.registration_form:hover {
+  background-color: white;
+  color: #2d2d2d;
+}
+.brand {
+  color: rgb(18, 207, 124);
+}
+.slogan h1 > span {
+  color: rgb(18, 207, 124);
+}
+.slogan {
+  text-align: center;
+  margin-top: 30px;
+}
+.contacts {
+  display: flex;
+  align-items: center;
+  color: #f3f3f3;
+  font-size: 18px;
+  gap: 5px;
+}
+.contacts img {
+  width: 30px;
+}
+.contacts a {
+  color: white;
+}
+.contacts a:hover {
+  color: rgb(18, 207, 124);
+}
+
+.services {
+  margin-top: 30px;
+  position: relative;
+  background: url("../img/background.jpg") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 500px;
+}
+.services_text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.services_text p:first-child {
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: -0.3px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.services_button {
+  margin-top: 50px;
+  width: 50%;
+}
+.services_text p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.services_button a {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  color: white;
+  background-color: rgb(18, 207, 124);
+  font-size: 18px;
+  justify-content: center;
+  border-radius: 30px;
+  border: rgb(18, 207, 124) solid 1px;
+}
+.services_button a:hover {
+  background-color: white;
+  color: rgb(18, 207, 124);
+}
+.serices_box {
+  margin-top: 20px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(18, 207, 124);
+}
+.services_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.serices_box ul li {
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+.serices_box ul li:first-child {
+  text-align: center;
+  background-color: rgb(25, 155, 99);
+  height: 40px;
+}
+.serices_box ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

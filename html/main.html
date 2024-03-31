@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Профессиональная уборка помещений</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style_common.css" />
+    <link rel="stylesheet" href="./css/slider.css" />
+  </head>
+  <body>
+    <div class="container_all">
+      <!--Хедер -->
+      <header class="header">
+        <div class="container">
+          <nav class="navbar">
+            <a href="#" class="navbar-brand">
+              <span class="brand">Cleen</span><span>Room</span>
+            </a>
+            <div class="navbar-wrap">
+              <ul class="navbar-menu">
+                <li>
+                  <a href="#">Услуги</a>
+                  <ul>
+                    <li><a href="">Очистка окон</a></li>
+                    <li><a href="">Уборка</a></li>
+                    <li><a href="">Дезинфекция</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Цены</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Наши работы</a></li>
+              </ul>
+            </div>
+            <div class="contacts">
+              <img src="../html/img/clocks.svg" alt="clock" />
+              <span>ПН-ПТ: 8:00 - 17:00</span>
+              <a href="tel:+375297762648"
+                ><img src="../html/img/telephone.png" alt=""
+              /></a>
+              <a href=" tel:+375297762648">+375297762648</a>
+            </div>
+            <div class="registration">
+              <a href="https://t.me/sugarfree20" target="_blank"
+                ><img src="./img/tg.svg" alt=""
+              /></a>
+              <a
+                href="https://www.instagram.com/pavlik_1225/?hl=ru"
+                target="_blank"
+                ><img src="./img/inst.svg" alt=""
+              /></a>
+              <a href="./form.html" class="registration_form"
+                >Зарегистрироваться</a
+              >
+            </div>
+          </nav>
+        </div>
+      </header>
+      <div class="slogan">
+        <div class="container">
+          <h1>
+            <span>Очищайте, освежайте, дезинфицируйте</span> - создайте
+            безупречную чистоту с нашими услугами!
+          </h1>
+        </div>
+      </div>
+      <!--Слайдер -->
+      <div class="slider">
+        <div class="slider__line">
+          <img src="./img/cleenroom.jpg" alt="" />
+          <img src="./img/cleenwindow.jpg" alt="" />
+          <img src="./img/dezinfection.jpg" alt="" />
+        </div>
+
+        <button class="slider__btn-prev">
+          <img src="./img/arrow_left.png" />
+        </button>
+        <button class="slider__btn-next">
+          <img src="./img/arrow_right.png" />
+        </button>
+
+        <div class="slider__wrapper">
+          <div class="slider__dot active-dot"></div>
+          <div class="slider__dot"></div>
+          <div class="slider__dot"></div>
+        </div>
+      </div>
+      <!--Услуги -->
+      <div class="services">
+        <div class="container">
+          <div class="services_flex">
+            <div class="services_text">
+              <p>
+                Клининговая компания <span class="brand">Cleen</span
+                ><span>Room</span>
+              </p>
+              <p>
+                Мы предлагаем широкий спектр услуг, включающий помывку окон,
+                уборку помещений, дезинфекцию и уборку после ремонта и
+                строительства. Мы готовы адаптироваться к вашим потребностям и
+                предоставить профессиональные услуги, чтобы обеспечить чистоту,
+                безопасность и комфорт в вашем помещении.
+              </p>
+              <div class="services_button"><a href="#">Выбрать услугу</a></div>
+            </div>
+            <div class="serices_box">
+              <ul>
+                <li>Услуги</li>
+                <li>Мойка и чистка окон</li>
+                <li>Уборка офсиов</li>
+                <li>Дезинфекция</li>
+                <li>Уборка помещений</li>
+                <li>Генеральная уборка помещений</li>
+                <li>Химчистка</li>
+                <li>Уборка после ремонта</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="/js/popper.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/slider.js"></script>
+  </body>
+</html>
