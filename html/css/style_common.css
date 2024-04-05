@@ -496,3 +496,55 @@ ul[name="staff"] {
   align-items: center;
   font-size: 15px;
 }
+/*Вопросы и ответы */
+.q_a_block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.answer-block {
+  background-color: rgb(18, 207, 124);
+  opacity: 0.8;
+}
+.answer-block:hover {
+  opacity: 1;
+}
+.question {
+  display: flex;
+  color: whitesmoke;
+  padding: 16px 71px 21px 32px;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  justify-content: space-between;
+}
+.question img {
+  width: 29px;
+  height: 29px;
+  display: block;
+}
+img[alt="up_arrow"] {
+  display: none;
+}
+.answer {
+  display: none;
+  padding: 15px 0 22px 31px;
+  background-color: #f5f5f5;
+  font-size: 23px;
+  font-weight: 500;
+  border-left: 4px solid #edc71c;
+}
+.answer-block.active {
+  background-color: #edc71c;
+  opacity: 1;
+}
+.answer-block.active .question img[alt="down_arrow"] {
+  display: none;
+}
+.answer-block.active .question img[alt="up_arrow"] {
+  display: block;
+}
+.active {
+  display: block;
+}
