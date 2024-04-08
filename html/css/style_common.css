@@ -85,14 +85,14 @@ img {
 .navbar-brand {
   font-weight: 700;
   font-size: 26px;
-  color: white;
+  color: #f3f3f3;
 }
 .navbar-brand:hover {
-  color: white;
+  color: #f3f3f3;
 }
 .navbar li a {
   display: inline-block;
-  color: white;
+  color: #f3f3f3;
   font-size: 18px;
 }
 .navbar li a:hover {
@@ -106,17 +106,17 @@ img {
   width: 200px;
   background-color: coral;
   border-radius: 10px;
-  color: white;
+  color: #f3f3f3;
 }
 .callback:hover {
-  background-color: white;
+  background-color: #f3f3f3;
   color: black;
 }
 .navbar-menu li ul {
   z-index: 1;
   position: absolute;
   top: 62px;
-  left: 150px;
+  left: 200px;
   width: 150px;
   background-color: #2d2d2d;
   display: none;
@@ -137,7 +137,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #f3f3f3;
 }
 .registration img {
   height: 40px;
@@ -150,10 +150,10 @@ img {
   height: 40px;
   border-radius: 20px;
   background-color: rgb(18, 207, 124);
-  color: white;
+  color: #f3f3f3;
 }
 .registration_form:hover {
-  background-color: white;
+  background-color: #f3f3f3;
   color: #2d2d2d;
 }
 .brand {
@@ -177,7 +177,7 @@ img {
   width: 30px;
 }
 .contacts a {
-  color: white;
+  color: #f3f3f3;
 }
 .contacts a:hover {
   color: rgb(18, 207, 124);
@@ -217,7 +217,7 @@ img {
   height: 50px;
   display: flex;
   align-items: center;
-  color: white;
+  color: #f3f3f3;
   background-color: rgb(18, 207, 124);
   font-size: 18px;
   justify-content: center;
@@ -225,7 +225,7 @@ img {
   border: rgb(18, 207, 124) solid 1px;
 }
 .services_button a:hover {
-  background-color: white;
+  background-color: #f3f3f3;
   color: rgb(18, 207, 124);
 }
 .serices_box {
@@ -241,7 +241,7 @@ img {
 }
 .serices_box ul li {
   font-size: 18px;
-  color: white;
+  color: #f3f3f3;
   font-weight: 500;
 }
 
@@ -261,7 +261,7 @@ img {
   display: inline-block;
   vertical-align: middle;
   text-align: center;
-  color: white;
+  color: #f3f3f3;
 }
 
 .down_block_services_box_ul {
@@ -274,7 +274,7 @@ img {
   padding-right: 15px;
 }
 .down_block_services_box_ul a {
-  color: white;
+  color: #f3f3f3;
 }
 .down_block_services_box_ul a:hover {
   color: yellow;
@@ -314,7 +314,7 @@ h1[name="zagolovki"] {
   width: 33%;
   gap: 10px;
   margin-top: 15px;
-  color: white;
+  color: #f3f3f3;
   background-color: rgb(18, 207, 124);
 }
 .setka_block img {
@@ -331,7 +331,7 @@ h1[name="zagolovki"] {
 .nav_buttons {
   display: flex;
   background-color: rgb(18, 207, 124);
-  color: white;
+  color: #f3f3f3;
 }
 .nav_buttons_block {
   display: flex;
@@ -346,7 +346,7 @@ h1[name="zagolovki"] {
 .nav_buttons {
   display: flex;
   background-color: rgb(18, 207, 124);
-  color: white;
+  color: #f3f3f3;
 }
 .nav_buttons_block {
   display: flex;
@@ -377,7 +377,7 @@ h1[name="zagolovki"] {
   padding: 39px 30px;
   box-sizing: border-box;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: #f3f3f3;
   margin: 50px 92px 50px 0;
 }
 .after_repair {
@@ -438,7 +438,7 @@ h1[name="zagolovki"] {
   height: 40px;
   border-radius: 20px;
   background-color: rgb(18, 207, 124);
-  color: white;
+  color: #f3f3f3;
   border: solid rgb(18, 207, 124) 1px;
 }
 .zakaz-btn:hover {
@@ -547,4 +547,74 @@ img[alt="up_arrow"] {
 }
 .active {
   display: block;
+}
+footer {
+  background-color: #2d2d2d;
+  padding-top: 54px;
+  margin-top: 50px;
+  color: #f3f3f3;
+}
+.footer_content {
+  display: flex;
+  justify-content: space-between;
+}
+.left_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.center_footer_up {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.center_footer_down {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.center_footer_up a {
+  display: inline-block;
+  color: #f3f3f3;
+  font-size: 18px;
+}
+.center_footer_up a:hover {
+  color: rgb(18, 207, 124);
+}
+.center_footer_down ul {
+  margin-top: 40px;
+}
+.center_footer_down ul li {
+  margin-top: 10px;
+}
+.right_footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+img[name="mobile"] {
+  height: 40px;
+}
+a[name="mobile"] {
+  color: #f3f3f3;
+}
+a[name="mobile"] :hover {
+  color: rgb(18, 207, 124);
+}
+.right_footer a {
+  color: #f3f3f3;
+  border-radius: 25px;
+  padding-left: 15px;
+}
+
+a[name="vk"] {
+  background-color: rgb(25, 118, 210);
+}
+a[name="tg"] {
+  background-color: rgb(41, 182, 246);
+}
+a[name="inst"] {
+  background-color: rgb(245, 0, 87);
+}
+a[name="gmail"] {
+  background-color: rgb(18, 207, 124);
 }
