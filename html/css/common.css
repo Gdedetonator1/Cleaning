@@ -203,6 +203,24 @@ img {
 .contacts a:hover {
   color: rgb(18, 207, 124);
 }
+/* Слайддер наши клиенты */
+.multiple-items img {
+  padding-top: 15px;
+  max-height: 100px;
+  margin: 0 auto;
+}
+
+.single-item {
+  display: flex;
+  flex-grow: 1;
+  height: 150px;
+}
+h1[name="zagolovki"] {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
 /* footer */
 footer {
   background-color: #2d2d2d;
@@ -273,4 +291,34 @@ a[name="inst"] {
 }
 a[name="gmail"] {
   background-color: rgb(18, 207, 124);
+}
+/* Кнопка рассчитать стоимость */
+.calc {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.calc a {
+  font-size: 30px;
+  color: black;
+}
+.calc a:hover {
+  color: rgb(18, 207, 124);
+}
+#calculate_form {
+  width: 400px;
+  background-color: rgb(18, 207, 124);
+  text-align: center;
+  padding: 17px 33px;
+  border: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+#calculate_form:hover {
+  background-color: #f3f3f3;
+  border: 1px solid black;
+  color: rgb(18, 207, 124);
 }

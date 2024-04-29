@@ -132,6 +132,9 @@ h1[name="zagolovki"] {
   color: #f3f3f3;
   background-color: rgb(18, 207, 124);
 }
+.setka_block p {
+  padding-left: 20px;
+}
 .setka_block img {
   width: 130px;
   height: 130px;
