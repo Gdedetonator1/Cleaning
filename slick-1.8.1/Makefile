@@ -5,4 +5,4 @@ build: components slick.js slick.css
 components: component.json
   @component install --dev
 
-.PHONY: clean
+.PHONY: Cleen

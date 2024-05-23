@@ -6,20 +6,20 @@ const afterRepairButton = document.querySelector(
 const chemicalButton = document.querySelector(
   ".nav_buttons_block:nth-child(3)"
 );
-const windowCleanButton = document.querySelector(
+const windowCleenButton = document.querySelector(
   ".nav_buttons_block:nth-child(4)"
 );
 const oficeBlock = document.querySelector(".ofice");
 const afterRepairBlock = document.querySelector(".after_repair");
 const chemicalBlock = document.querySelector(".chemical");
-const windowCleanBlock = document.querySelector(".window_clean");
+const windowCleenBlock = document.querySelector(".window_Cleen");
 
 // Обработчик события для кнопки "Офисы"
 oficeButton.addEventListener("click", function () {
   // При нажатии скрываем остальные блоки и отображаем блок "ofice"
   afterRepairBlock.style.display = "none";
   chemicalBlock.style.display = "none";
-  windowCleanBlock.style.display = "none";
+  windowCleenBlock.style.display = "none";
   oficeBlock.style.display = "block";
 });
 
@@ -28,7 +28,7 @@ afterRepairButton.addEventListener("click", function () {
   // При нажатии скрываем остальные блоки и отображаем блок "after_repair"
   oficeBlock.style.display = "none";
   chemicalBlock.style.display = "none";
-  windowCleanBlock.style.display = "none";
+  windowCleenBlock.style.display = "none";
   afterRepairBlock.style.display = "block";
 });
 
@@ -37,15 +37,15 @@ chemicalButton.addEventListener("click", function () {
   // При нажатии скрываем остальные блоки и отображаем блок "chemical"
   oficeBlock.style.display = "none";
   afterRepairBlock.style.display = "none";
-  windowCleanBlock.style.display = "none";
+  windowCleenBlock.style.display = "none";
   chemicalBlock.style.display = "block";
 });
 
 // Обработчик события для кнопки "Чистка окон"
-windowCleanButton.addEventListener("click", function () {
-  // При нажатии скрываем остальные блоки и отображаем блок "window_clean"
+windowCleenButton.addEventListener("click", function () {
+  // При нажатии скрываем остальные блоки и отображаем блок "window_Cleen"
   oficeBlock.style.display = "none";
   afterRepairBlock.style.display = "none";
   chemicalBlock.style.display = "none";
-  windowCleanBlock.style.display = "block";
+  windowCleenBlock.style.display = "block";
 });
